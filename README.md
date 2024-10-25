@@ -8,5 +8,5 @@ Valid parameters are:
 
 - author (string)
 - title (string)
-- isbn (string) - Multple semicolon-separated ISBNs are allowed
-- offset (string) - Must be multiples of 20
+- isbn (string) - Valid ISBN is 10 or 13 digits. Multple semicolon-separated ISBNs are allowed.
+- offset (integer) - Must be multiples of 20. Zero or no value is allowed.
